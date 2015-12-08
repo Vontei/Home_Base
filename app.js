@@ -18,4 +18,25 @@ $(function(){
       "transform": "rotateX("+currdeg+"deg)"
     });
   }
+
+$('.contact').hide();
+$('.thanks').click(function(){
+    $('.contact').show();
+    $('.thanks').hide();
+});
+$('.contact').click(function(){
+    $('.thanks').show();
+    $('.contact').hide();
+});
+$('.job').hide();
+$('.name').click(function(){
+    $('.job').show();
+    $('.name').hide();
+});
+$('.job').click(function(){
+    $('.name').show();
+    $('.job').hide();
+});
+
+
 })
