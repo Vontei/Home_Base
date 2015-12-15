@@ -9,7 +9,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 975px;
+  width: 875px;
   height: 250px;
   position: relative;
   perspective: 1000px;
@@ -38,14 +38,14 @@ a{
   display: block;
   position: absolute;
   background: #000;
-  width: 975px;
-  height: 250px;
+  width: 875px;
+  height: 255px;
   line-height: 200px;
   font-size: 5.5em;
   text-align: center;
   color: #FFF;
   opacity: 0.95;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .a {
@@ -100,6 +100,8 @@ a{
   top: 104px;
   box-shadow: 0 1px 0 #999;
 }
+
+
 
 
 .buttons {
